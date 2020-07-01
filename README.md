@@ -1,6 +1,6 @@
 # loans-scraping
 
-This a python script for scraping loans data from [MoneyHero](https://www.moneyhero.com.hk/zh/personal-loan) by Selenium with Python. The result would be parsed as a json file (saved as './loans.json') and beprinted on the console. 
+This a python script for scraping loans data from [MoneyHero](https://www.moneyhero.com.hk/zh/personal-loan) by Selenium with Python. The result would be parsed as a json file (saved as './loans.json') and would be printed on the console. 
 
 ## Usage
 ```console
@@ -19,9 +19,9 @@ Argument1 - Type of loan - : There are 9 types of loan. You should input an inte
     8: Banks Loans
     9: Small Size Loans
 
-Argument2 - Amount of money wanted to borrow - : The amount of money that you want to borrow. The input data type should be an integer
+Argument2 - Amount of money- : The amount of money that you want to borrow. The input data type should be an integer
 
-Argument3 - Repayment period - : The desired repayment period (months). The input data type should be an integer
+Argument3 - Repayment period - : The desired repayment period (month). The input data type should be an integer
 
 ## Example
 If you want to choose type of loan as 'Lending Companies Loans', borrow $200,000 and your desired repayment period is 24 months.
